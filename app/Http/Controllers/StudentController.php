@@ -8,12 +8,12 @@ class StudentController extends Controller
 {
     public function index()
     {
-        return "Menampilkan halaman daftar siswa";
+        return view('students.index');
     }
 
     public function create()
     {
-        return "Menampilkan halaman tambah siswa";
+        return view('students.create');
     }
     public function store()
     {
